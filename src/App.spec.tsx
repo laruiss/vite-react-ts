@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 
-import App from './App.jsx'
+import App from './App.tsx'
 
 describe('App', () => {
   it('should mount App component', () => {

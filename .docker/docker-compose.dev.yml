@@ -16,4 +16,4 @@ services:
       - ../jest.config.js:/app/jest.config.js
       - ../package.json:/app/package.json
       - ../package-lock.json:/app/package-lock.json
-      - ../vite.config.js:/app/vite.config.js
+      - ../vite.config.ts:/app/vite.config.ts
